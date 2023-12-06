@@ -1,0 +1,39 @@
+/* navbar.module.css */
+nav {
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 40px;
+    background-color: #333; /* You can change the background color */
+    color: white; /* Text color */
+}
+
+nav img {
+    width: 50px;
+    padding-left: 8px; /* Adjust the width as needed */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Adjust the space between menu items */
+    position: relative;
+    top: 8px;
+}
+
+nav li {
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Link color */
+}
+
+nav a:hover {
+    border-bottom: 2px solid white; /* Add an underline on hover */
+}
+
+/* You can add media queries for responsiveness */
